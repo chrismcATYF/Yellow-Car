@@ -1,5 +1,5 @@
 //
-//  RoundedButton.swift
+//  RoundedView.swift
 //  Yellow Car
 //
 //  Created by Chris McDonald on 4/8/18.
@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class RoundedButton : UIButton {
+class RoundedView: UIView {
     
     @IBInspectable var cornerRadius: CGFloat = 3.0 {
         didSet {
@@ -19,12 +19,12 @@ class RoundedButton : UIButton {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.setupView()
+        setupView()
     }
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        self.setupView()
+        setupView()
     }
     
     func setupView() {

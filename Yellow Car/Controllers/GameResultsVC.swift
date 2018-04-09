@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GameResultsVC.swift
 //  Yellow Car
 //
 //  Created by Chris McDonald on 4/8/18.
@@ -8,11 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GameResultsVC: UIViewController {
 
+    @IBOutlet weak var ScoreLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+    @IBAction func GameOverPressed(_ sender: Any) {
+        
+    }
 }
-

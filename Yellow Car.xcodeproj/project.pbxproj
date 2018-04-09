@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1996EE21207AECD200836F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996EE20207AECD200836F40 /* AppDelegate.swift */; };
-		1996EE23207AECD200836F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996EE22207AECD200836F40 /* ViewController.swift */; };
+		1996EE23207AECD200836F40 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996EE22207AECD200836F40 /* MainVC.swift */; };
 		1996EE26207AECD200836F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1996EE24207AECD200836F40 /* Main.storyboard */; };
 		1996EE28207AECD400836F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1996EE27207AECD400836F40 /* Assets.xcassets */; };
 		1996EE2B207AECD400836F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1996EE29207AECD400836F40 /* LaunchScreen.storyboard */; };
 		1996EE37207AEEEE00836F40 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996EE36207AEEEE00836F40 /* RoundedButton.swift */; };
-		1996EE39207AF53A00836F40 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996EE38207AF53900836F40 /* RoundedLabel.swift */; };
+		1996EE3B207AF72800836F40 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996EE3A207AF72800836F40 /* RulesVC.swift */; };
+		1996EE3F207AF82600836F40 /* CreditsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996EE3E207AF82600836F40 /* CreditsVC.swift */; };
+		19ED3AA1207AF90700BCC909 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED3AA0207AF90700BCC909 /* RoundedView.swift */; };
+		19ED3AA3207B047400BCC909 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED3AA2207B047400BCC909 /* CircleButton.swift */; };
+		19ED3AA9207B080800BCC909 /* GameIntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED3AA8207B080800BCC909 /* GameIntroVC.swift */; };
+		19ED3AAB207B081900BCC909 /* GameMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED3AAA207B081900BCC909 /* GameMainVC.swift */; };
+		19ED3AAD207B082E00BCC909 /* GameResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED3AAC207B082E00BCC909 /* GameResultsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1996EE1D207AECD200836F40 /* Yellow Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yellow Car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1996EE20207AECD200836F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1996EE22207AECD200836F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1996EE22207AECD200836F40 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1996EE25207AECD200836F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1996EE27207AECD400836F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1996EE2A207AECD400836F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1996EE2C207AECD400836F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1996EE36207AEEEE00836F40 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
-		1996EE38207AF53900836F40 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		1996EE3A207AF72800836F40 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		1996EE3E207AF82600836F40 /* CreditsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsVC.swift; sourceTree = "<group>"; };
+		19ED3AA0207AF90700BCC909 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		19ED3AA2207B047400BCC909 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		19ED3AA8207B080800BCC909 /* GameIntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIntroVC.swift; sourceTree = "<group>"; };
+		19ED3AAA207B081900BCC909 /* GameMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMainVC.swift; sourceTree = "<group>"; };
+		19ED3AAC207B082E00BCC909 /* GameResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +75,6 @@
 				1996EE33207AEEBB00836F40 /* Enums */,
 				1996EE32207AEEB100836F40 /* Controllers */,
 				1996EE20207AECD200836F40 /* AppDelegate.swift */,
-				1996EE22207AECD200836F40 /* ViewController.swift */,
 				1996EE24207AECD200836F40 /* Main.storyboard */,
 				1996EE27207AECD400836F40 /* Assets.xcassets */,
 				1996EE29207AECD400836F40 /* LaunchScreen.storyboard */,
@@ -75,6 +86,12 @@
 		1996EE32207AEEB100836F40 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1996EE22207AECD200836F40 /* MainVC.swift */,
+				1996EE3A207AF72800836F40 /* RulesVC.swift */,
+				1996EE3E207AF82600836F40 /* CreditsVC.swift */,
+				19ED3AA8207B080800BCC909 /* GameIntroVC.swift */,
+				19ED3AAA207B081900BCC909 /* GameMainVC.swift */,
+				19ED3AAC207B082E00BCC909 /* GameResultsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -97,7 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				1996EE36207AEEEE00836F40 /* RoundedButton.swift */,
-				1996EE38207AF53900836F40 /* RoundedLabel.swift */,
+				19ED3AA0207AF90700BCC909 /* RoundedView.swift */,
+				19ED3AA2207B047400BCC909 /* CircleButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,9 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1996EE23207AECD200836F40 /* ViewController.swift in Sources */,
+				1996EE23207AECD200836F40 /* MainVC.swift in Sources */,
+				19ED3AAD207B082E00BCC909 /* GameResultsVC.swift in Sources */,
+				1996EE3B207AF72800836F40 /* RulesVC.swift in Sources */,
+				19ED3AA1207AF90700BCC909 /* RoundedView.swift in Sources */,
+				19ED3AAB207B081900BCC909 /* GameMainVC.swift in Sources */,
+				19ED3AA9207B080800BCC909 /* GameIntroVC.swift in Sources */,
+				19ED3AA3207B047400BCC909 /* CircleButton.swift in Sources */,
 				1996EE37207AEEEE00836F40 /* RoundedButton.swift in Sources */,
-				1996EE39207AF53A00836F40 /* RoundedLabel.swift in Sources */,
+				1996EE3F207AF82600836F40 /* CreditsVC.swift in Sources */,
 				1996EE21207AECD200836F40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
