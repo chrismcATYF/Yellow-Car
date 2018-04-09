@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Yellow_Car" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXH-FQ-Pzf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="TGE-WH-ZSX">
+                                        <rect key="frame" x="86.5" y="80" width="201" height="41"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YELLOW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QM9-IW-DYQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="125.5" height="41"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be3-fg-54M">
+                                                <rect key="frame" x="138.5" y="0.0" width="62.5" height="41"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNH-dr-5CT" customClass="RoundedButton" customModule="Yellow_Car" customModuleProvider="target">
+                                        <rect key="frame" x="112" y="276" width="150" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="5C0-bL-w11"/>
+                                            <constraint firstAttribute="height" constant="50" id="6ZU-h4-e1B"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="19"/>
+                                        <state key="normal" title="Start Playing!">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyt-WY-NMn" customClass="RoundedButton" customModule="Yellow_Car" customModuleProvider="target">
+                                        <rect key="frame" x="137.5" y="366" width="100" height="35"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="9db-kl-0nY"/>
+                                            <constraint firstAttribute="width" constant="100" id="S8Z-UW-3dX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="13"/>
+                                        <state key="normal" title="Rules"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ef8-4y-dKZ" customClass="RoundedButton" customModule="Yellow_Car" customModuleProvider="target">
+                                        <rect key="frame" x="165" y="596" width="45" height="20"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="FcH-9c-ChV"/>
+                                            <constraint firstAttribute="height" constant="20" id="PLM-ek-4pD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
+                                        <state key="normal" title="Credits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQE-6T-8zF">
+                                        <rect key="frame" x="33" y="58" width="309" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.93566012272912913" blue="0.22697536968855458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wNH-dr-5CT" firstAttribute="centerX" secondItem="aXH-FQ-Pzf" secondAttribute="centerX" id="AQd-ni-ELb"/>
+                                    <constraint firstItem="gyt-WY-NMn" firstAttribute="top" secondItem="wNH-dr-5CT" secondAttribute="bottom" constant="40" id="HiM-TZ-s0i"/>
+                                    <constraint firstItem="gyt-WY-NMn" firstAttribute="centerX" secondItem="aXH-FQ-Pzf" secondAttribute="centerX" id="INb-UL-lZ4"/>
+                                    <constraint firstItem="TGE-WH-ZSX" firstAttribute="centerX" secondItem="aXH-FQ-Pzf" secondAttribute="centerX" id="Ihe-Sk-p0M"/>
+                                    <constraint firstItem="TGE-WH-ZSX" firstAttribute="top" secondItem="aXH-FQ-Pzf" secondAttribute="top" constant="80" id="KsQ-OD-MTh"/>
+                                    <constraint firstItem="wNH-dr-5CT" firstAttribute="top" secondItem="TGE-WH-ZSX" secondAttribute="bottom" constant="155" id="VHL-Wx-iWY"/>
+                                    <constraint firstItem="ef8-4y-dKZ" firstAttribute="top" secondItem="gyt-WY-NMn" secondAttribute="bottom" constant="195" id="oIk-l9-d2N"/>
+                                    <constraint firstItem="ef8-4y-dKZ" firstAttribute="centerX" secondItem="aXH-FQ-Pzf" secondAttribute="centerX" id="wVs-W6-HbX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aXH-FQ-Pzf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BH8-C8-FXO"/>
+                            <constraint firstItem="aXH-FQ-Pzf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oqi-cz-HH1"/>
+                            <constraint firstItem="aXH-FQ-Pzf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wh1-2g-dKZ"/>
+                            <constraint firstItem="aXH-FQ-Pzf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yGa-CO-TWa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
