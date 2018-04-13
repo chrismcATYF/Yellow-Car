@@ -24,6 +24,6 @@ class GameMainVC: UIViewController {
         ScoreLabel.text = scoreAsString
     }
     @IBAction func EngineOffPressed(_ sender: Any) {
-        let totalScore = runningScore
+        
     }
 }

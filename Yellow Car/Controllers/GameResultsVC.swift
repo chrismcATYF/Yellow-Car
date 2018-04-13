@@ -12,10 +12,9 @@ class GameResultsVC: UIViewController {
 
     @IBOutlet weak var ScoreLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        ScoreLabel.text = String(runningScore)
     }
     @IBAction func GameOverPressed(_ sender: Any) {
         
