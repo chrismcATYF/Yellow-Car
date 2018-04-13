@@ -14,7 +14,7 @@ class GameResultsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ScoreLabel.text = String(runningScore)
+        
     }
     @IBAction func GameOverPressed(_ sender: Any) {
         
