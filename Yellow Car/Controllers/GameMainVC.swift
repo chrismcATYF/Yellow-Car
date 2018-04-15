@@ -24,7 +24,6 @@ class GameMainVC: UIViewController {
         ScoreLabel.text = scoreAsString
     }
     @IBAction func EngineOffPressed(_ sender: Any) {
-        performSegue(withIdentifier: "GameResultsVC", sender: Any?.self)
-        let finalScore = runningScore
+        
     }
 }

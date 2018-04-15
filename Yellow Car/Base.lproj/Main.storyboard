@@ -310,15 +310,80 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="ojR-Bz-C2L">
+                                                <rect key="frame" x="13" y="130" width="274" height="393"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drivers can NOT play" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaQ-5K-aNH">
+                                                        <rect key="frame" x="65.5" y="0.0" width="143" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School buses do not count" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pff-wJ-qMN">
+                                                        <rect key="frame" x="50" y="53.5" width="174" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Semi trucks count but not the trailers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAK-FV-7Ea">
+                                                        <rect key="frame" x="14.5" y="107" width="245.5" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drivable cars only, no junkers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUY-ze-Z6A">
+                                                        <rect key="frame" x="42" y="160.5" width="190.5" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No carry over points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiE-Qr-0be">
+                                                        <rect key="frame" x="68" y="214" width="138" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The game starts when the engine starts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HoK-KT-6XO">
+                                                        <rect key="frame" x="9" y="267.5" width="256.5" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When the engine turns off, game over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnN-G8-naS">
+                                                        <rect key="frame" x="14.5" y="321" width="245.5" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The player with the most yellow cars wins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0x7-kU-6FE">
+                                                        <rect key="frame" x="0.0" y="374.5" width="274" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wQg-Hp-oI6">
+                                                <rect key="frame" x="30" y="87" width="240" height="3"/>
+                                                <color key="backgroundColor" red="1" green="0.93566012269999999" blue="0.22697536970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="240" id="VLK-T0-ucT"/>
+                                                    <constraint firstAttribute="height" constant="3" id="ti2-on-rE8"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <constraints>
+                                            <constraint firstItem="ojR-Bz-C2L" firstAttribute="centerX" secondItem="asS-QS-X5P" secondAttribute="centerX" id="2Cm-de-0WU"/>
                                             <constraint firstItem="qgc-ME-ueQ" firstAttribute="leading" secondItem="asS-QS-X5P" secondAttribute="leading" constant="15" id="36m-OV-15S"/>
+                                            <constraint firstItem="wQg-Hp-oI6" firstAttribute="top" secondItem="ovX-c8-eB3" secondAttribute="bottom" constant="8" id="JCm-Oi-oDx"/>
                                             <constraint firstAttribute="height" constant="570" id="NIp-jD-6oF"/>
                                             <constraint firstAttribute="width" constant="300" id="Ovy-Xs-krb"/>
                                             <constraint firstItem="qgc-ME-ueQ" firstAttribute="top" secondItem="asS-QS-X5P" secondAttribute="top" constant="15" id="c46-7I-lnf"/>
+                                            <constraint firstItem="wQg-Hp-oI6" firstAttribute="centerX" secondItem="asS-QS-X5P" secondAttribute="centerX" id="cts-iY-uCr"/>
                                             <constraint firstItem="ovX-c8-eB3" firstAttribute="top" secondItem="asS-QS-X5P" secondAttribute="top" constant="50" id="dxC-wq-V1N"/>
                                             <constraint firstItem="ovX-c8-eB3" firstAttribute="centerX" secondItem="asS-QS-X5P" secondAttribute="centerX" id="iuR-c8-xam"/>
+                                            <constraint firstItem="ojR-Bz-C2L" firstAttribute="top" secondItem="wQg-Hp-oI6" secondAttribute="bottom" constant="40" id="t5V-zc-xO8"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -346,7 +411,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jbw-ts-OfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="513" y="549"/>
+            <point key="canvasLocation" x="512.79999999999995" y="548.27586206896558"/>
         </scene>
         <!--Game ResultsVC-->
         <scene sceneID="lYV-BJ-A9G">
