@@ -31,9 +31,6 @@ class GameMainVC: UIViewController {
     }
     
     @IBAction func EngineOffPressed(_ sender: Any) {
-        let results = GameResultsVC()
-        results.modalPresentationStyle = .custom
-        present(results, animated: true, completion: nil)
-        performSegue(withIdentifier: TO_GAME_RESULTS, sender: nil)
+        
     }
 }
