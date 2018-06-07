@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -408,97 +408,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="spB-IN-vDk"/>
                     </view>
+                    <connections>
+                        <outlet property="rulesStack" destination="ojR-Bz-C2L" id="iUd-gI-yd2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jbw-ts-OfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="512.79999999999995" y="548.27586206896558"/>
-        </scene>
-        <!--Game ResultsVC-->
-        <scene sceneID="lYV-BJ-A9G">
-            <objects>
-                <viewController id="Gc1-ah-HgT" customClass="GameResultsVC" customModule="Yellow_Car" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MPZ-an-KIL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GIA-Qd-8UY">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goj-80-r3T">
-                                        <rect key="frame" x="141" y="85" width="93" height="29"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="Dyy-tH-RJS"/>
-                                            <constraint firstAttribute="height" constant="29" id="uJL-4Y-d6j"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="25"/>
-                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImR-V3-M3n">
-                                        <rect key="frame" x="62.5" y="512" width="250" height="90"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="2bv-Ui-JKd"/>
-                                            <constraint firstAttribute="height" constant="90" id="hU4-Za-ntN"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="25"/>
-                                        <state key="normal" title="Game Over">
-                                            <color key="titleColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="GameOverPressed:" destination="Gc1-ah-HgT" eventType="touchUpInside" id="nXK-Zc-uwg"/>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="ZVq-Ca-1yt"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your score is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmm-Z9-8XH">
-                                        <rect key="frame" x="128" y="174" width="118" height="24"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="24" id="iEV-ZS-0B0"/>
-                                            <constraint firstAttribute="width" constant="118" id="k8a-wa-7NU"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="20"/>
-                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Mr-7g-dzM">
-                                        <rect key="frame" x="112" y="306" width="150" height="150"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="Luo-oV-shY"/>
-                                            <constraint firstAttribute="height" constant="150" id="dOM-PZ-uNy"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
-                                        <color key="textColor" red="0.96726756250000001" green="1" blue="0.93943704309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="vmm-Z9-8XH" firstAttribute="centerX" secondItem="GIA-Qd-8UY" secondAttribute="centerX" id="Lde-Bf-oyx"/>
-                                    <constraint firstItem="Goj-80-r3T" firstAttribute="centerX" secondItem="GIA-Qd-8UY" secondAttribute="centerX" id="Lnm-CP-EdR"/>
-                                    <constraint firstItem="ImR-V3-M3n" firstAttribute="centerX" secondItem="GIA-Qd-8UY" secondAttribute="centerX" id="dw8-G7-zNn"/>
-                                    <constraint firstItem="5Mr-7g-dzM" firstAttribute="centerX" secondItem="GIA-Qd-8UY" secondAttribute="centerX" id="i7z-3z-PZW"/>
-                                    <constraint firstItem="vmm-Z9-8XH" firstAttribute="top" secondItem="Goj-80-r3T" secondAttribute="bottom" constant="60" id="jnV-ei-C8x"/>
-                                    <constraint firstAttribute="bottom" secondItem="ImR-V3-M3n" secondAttribute="bottom" constant="45" id="l5B-zM-3TT"/>
-                                    <constraint firstItem="5Mr-7g-dzM" firstAttribute="top" secondItem="vmm-Z9-8XH" secondAttribute="bottom" constant="108" id="qhv-Ux-2cu"/>
-                                    <constraint firstItem="Goj-80-r3T" firstAttribute="top" secondItem="GIA-Qd-8UY" secondAttribute="top" constant="85" id="xpr-Q7-7Ql"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="GIA-Qd-8UY" firstAttribute="leading" secondItem="u77-cM-kVx" secondAttribute="leading" id="6dh-9R-YRL"/>
-                            <constraint firstItem="GIA-Qd-8UY" firstAttribute="top" secondItem="u77-cM-kVx" secondAttribute="top" id="DqA-Y3-fGd"/>
-                            <constraint firstItem="u77-cM-kVx" firstAttribute="bottom" secondItem="GIA-Qd-8UY" secondAttribute="bottom" id="miT-sl-QfM"/>
-                            <constraint firstItem="u77-cM-kVx" firstAttribute="trailing" secondItem="GIA-Qd-8UY" secondAttribute="trailing" id="qgA-vU-L4X"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="u77-cM-kVx"/>
-                    </view>
-                    <connections>
-                        <outlet property="ScoreLabel" destination="5Mr-7g-dzM" id="O7m-Vt-KGj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qec-VC-iWD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2140" y="-215.44227886056973"/>
         </scene>
         <!--Game IntroVC-->
         <scene sceneID="xp3-Xl-RZa">
@@ -624,7 +540,6 @@
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="EngineOffPressed:" destination="BM3-wg-dMU" eventType="touchUpInside" id="gQx-3d-zSr"/>
-                                            <segue destination="Gc1-ah-HgT" kind="show" id="F0m-Wl-K4e"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -654,7 +569,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="STJ-iZ-YnG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1322" y="-214"/>
+            <point key="canvasLocation" x="1330" y="-215"/>
         </scene>
     </scenes>
 </document>

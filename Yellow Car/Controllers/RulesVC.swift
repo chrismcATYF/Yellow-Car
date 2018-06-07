@@ -10,6 +10,8 @@ import UIKit
 
 class RulesVC: UIViewController {
 
+    @IBOutlet weak var rulesStack: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

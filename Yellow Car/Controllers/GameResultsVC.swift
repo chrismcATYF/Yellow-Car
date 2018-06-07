@@ -14,6 +14,7 @@ class GameResultsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     @IBAction func GameOverPressed(_ sender: Any) {

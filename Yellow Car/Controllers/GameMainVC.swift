@@ -18,12 +18,22 @@ class GameMainVC: UIViewController {
         super.viewDidLoad()
         
     }
-    @IBAction func YellowCarPressed(_ sender: Any) {
+    
+    func CalculateScore() -> String {
         runningScore += 1
         let scoreAsString = String(runningScore)
         ScoreLabel.text = scoreAsString
+        return scoreAsString
     }
+    
+    @IBAction func YellowCarPressed(_ sender: Any) {
+        _ = CalculateScore()
+    }
+    
     @IBAction func EngineOffPressed(_ sender: Any) {
-        
+        let results = GameResultsVC()
+        results.modalPresentationStyle = .custom
+        present(results, animated: true, completion: nil)
+        performSegue(withIdentifier: TO_GAME_RESULTS, sender: nil)
     }
 }
