@@ -7,16 +7,20 @@
 //
 
 import UIKit
+import Foundation
+import CoreData
 
 class GameMainVC: UIViewController {
 
     @IBOutlet weak var ScoreLabel: UILabel!
+    @IBOutlet weak var ResultLabel: UILabel!
+    @IBOutlet weak var ResultsView: UIView!
     
     var runningScore = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        ResultsView.isHidden = true
     }
     
     func CalculateScore() -> String {
@@ -31,6 +35,14 @@ class GameMainVC: UIViewController {
     }
     
     @IBAction func EngineOffPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func MainMenuButtonPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func HistoryButtonPressed(_ sender: Any) {
         
     }
 }

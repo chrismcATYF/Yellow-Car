@@ -432,7 +432,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BM3-wg-dMU" kind="show" id="COz-k3-bb5"/>
+                                    <segue destination="BM3-wg-dMU" kind="show" id="OqX-CG-0NZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uw1-Mo-3l1">
@@ -570,11 +570,68 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qv0-Ac-WwD">
+                                                <rect key="frame" x="119" y="216" width="136" height="137"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="136" id="C3w-sk-57H"/>
+                                                    <constraint firstAttribute="height" constant="137" id="Roe-LY-y86"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="62"/>
+                                                <color key="textColor" red="0.90611782870000002" green="0.90611782870000002" blue="0.90611782870000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a97-f5-uhd" customClass="RoundedButton" customModule="Yellow_Car" customModuleProvider="target">
+                                                <rect key="frame" x="111" y="430" width="152" height="54"/>
+                                                <color key="backgroundColor" red="1" green="0.93566012269999999" blue="0.22697536970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="152" id="S1W-bo-V7O"/>
+                                                    <constraint firstAttribute="height" constant="54" id="xPq-WC-LdC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
+                                                <state key="normal" title="Main Menu">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="MainMenuButtonPressed:" destination="BM3-wg-dMU" eventType="touchUpInside" id="KCh-xE-A1g"/>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="ZhX-Wg-j2E"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nos-bB-lnZ" customClass="RoundedButton" customModule="Yellow_Car" customModuleProvider="target">
+                                                <rect key="frame" x="54" y="542" width="266" height="75"/>
+                                                <color key="backgroundColor" red="1" green="0.93566012269999999" blue="0.22697536970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="266" id="J8F-sl-15U"/>
+                                                    <constraint firstAttribute="height" constant="75" id="zMv-kH-yqN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="40"/>
+                                                <state key="normal" title="My History">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="HistoryButtonPressed:" destination="BM3-wg-dMU" eventType="touchUpInside" id="TIp-aA-y0v"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="Nos-bB-lnZ" firstAttribute="top" secondItem="a97-f5-uhd" secondAttribute="bottom" constant="58" id="0Nt-ud-5Xs"/>
+                                            <constraint firstItem="Nos-bB-lnZ" firstAttribute="centerX" secondItem="fkP-03-hyC" secondAttribute="centerX" id="4vm-To-11q"/>
+                                            <constraint firstItem="a97-f5-uhd" firstAttribute="top" secondItem="qv0-Ac-WwD" secondAttribute="bottom" constant="77" id="FaJ-zj-Zoy"/>
+                                            <constraint firstItem="qv0-Ac-WwD" firstAttribute="centerX" secondItem="fkP-03-hyC" secondAttribute="centerX" id="HMz-XY-QXw"/>
                                             <constraint firstItem="k4R-w4-zfH" firstAttribute="top" secondItem="fkP-03-hyC" secondAttribute="top" constant="58" id="akN-6r-JBc"/>
                                             <constraint firstItem="k4R-w4-zfH" firstAttribute="centerX" secondItem="fkP-03-hyC" secondAttribute="centerX" id="lg1-PZ-NIF"/>
+                                            <constraint firstItem="a97-f5-uhd" firstAttribute="centerX" secondItem="fkP-03-hyC" secondAttribute="centerX" id="p1b-q6-bTG"/>
+                                            <constraint firstItem="qv0-Ac-WwD" firstAttribute="top" secondItem="k4R-w4-zfH" secondAttribute="bottom" constant="74" id="suJ-DW-YGD"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -603,12 +660,16 @@
                         <viewLayoutGuide key="safeArea" id="Bsq-KW-vRx"/>
                     </view>
                     <connections>
+                        <outlet property="HistoryButton" destination="Nos-bB-lnZ" id="n9k-75-ljK"/>
+                        <outlet property="MainMenuButton" destination="a97-f5-uhd" id="pGU-4O-Bli"/>
+                        <outlet property="ResultLabel" destination="qv0-Ac-WwD" id="dfL-ns-F2r"/>
+                        <outlet property="ResultsView" destination="fkP-03-hyC" id="SkM-lB-MhB"/>
                         <outlet property="ScoreLabel" destination="8Mc-5T-njX" id="VJt-Ll-lE7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="STJ-iZ-YnG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1328.8" y="-215.44227886056973"/>
+            <point key="canvasLocation" x="1380" y="207"/>
         </scene>
     </scenes>
 </document>
