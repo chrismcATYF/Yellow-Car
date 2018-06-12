@@ -660,8 +660,6 @@
                         <viewLayoutGuide key="safeArea" id="Bsq-KW-vRx"/>
                     </view>
                     <connections>
-                        <outlet property="HistoryButton" destination="Nos-bB-lnZ" id="n9k-75-ljK"/>
-                        <outlet property="MainMenuButton" destination="a97-f5-uhd" id="pGU-4O-Bli"/>
                         <outlet property="ResultLabel" destination="qv0-Ac-WwD" id="dfL-ns-F2r"/>
                         <outlet property="ResultsView" destination="fkP-03-hyC" id="SkM-lB-MhB"/>
                         <outlet property="ScoreLabel" destination="8Mc-5T-njX" id="VJt-Ll-lE7"/>
