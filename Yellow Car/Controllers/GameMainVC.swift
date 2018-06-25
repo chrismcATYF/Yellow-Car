@@ -39,14 +39,9 @@ class GameMainVC: UIViewController {
         ScoreLabel.isHidden = true
         ResultsView.isHidden = false
         ResultLabel.isHidden = false
-        ResultLabel.text = String(runningScore)
-    }
+        ResultLabel.text = String(runningScore)    }
     
     @IBAction func MainMenuButtonPressed(_ sender: Any) {
-        
-    }
-    
-    @IBAction func HistoryButtonPressed(_ sender: Any) {
         
     }
 }

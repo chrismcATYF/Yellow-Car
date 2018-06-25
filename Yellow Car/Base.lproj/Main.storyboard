@@ -601,31 +601,9 @@
                                                     <segue destination="BYZ-38-t0r" kind="show" id="ZhX-Wg-j2E"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nos-bB-lnZ" customClass="RoundedButton" customModule="Yellow_Car" customModuleProvider="target">
-                                                <rect key="frame" x="54" y="542" width="266" height="75"/>
-                                                <color key="backgroundColor" red="1" green="0.93566012269999999" blue="0.22697536970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="266" id="J8F-sl-15U"/>
-                                                    <constraint firstAttribute="height" constant="75" id="zMv-kH-yqN"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="40"/>
-                                                <state key="normal" title="My History">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="HistoryButtonPressed:" destination="BM3-wg-dMU" eventType="touchUpInside" id="TIp-aA-y0v"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="Nos-bB-lnZ" firstAttribute="top" secondItem="a97-f5-uhd" secondAttribute="bottom" constant="58" id="0Nt-ud-5Xs"/>
-                                            <constraint firstItem="Nos-bB-lnZ" firstAttribute="centerX" secondItem="fkP-03-hyC" secondAttribute="centerX" id="4vm-To-11q"/>
                                             <constraint firstItem="a97-f5-uhd" firstAttribute="top" secondItem="qv0-Ac-WwD" secondAttribute="bottom" constant="77" id="FaJ-zj-Zoy"/>
                                             <constraint firstItem="qv0-Ac-WwD" firstAttribute="centerX" secondItem="fkP-03-hyC" secondAttribute="centerX" id="HMz-XY-QXw"/>
                                             <constraint firstItem="k4R-w4-zfH" firstAttribute="top" secondItem="fkP-03-hyC" secondAttribute="top" constant="58" id="akN-6r-JBc"/>
