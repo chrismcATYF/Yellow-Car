@@ -21,6 +21,7 @@ class GameMainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ResultsView.isHidden = true
+        ResultLabel.isHidden = true
     }
     
     func CalculateScore() -> String {
@@ -35,7 +36,10 @@ class GameMainVC: UIViewController {
     }
     
     @IBAction func EngineOffPressed(_ sender: Any) {
-        
+        ScoreLabel.isHidden = true
+        ResultsView.isHidden = false
+        ResultLabel.isHidden = false
+        ResultLabel.text = String(runningScore)
     }
     
     @IBAction func MainMenuButtonPressed(_ sender: Any) {
